@@ -23,7 +23,7 @@ public class GlobalVariables {
 		
 		if(browserName.equals("chrome")) {
 			WebDriver driver;
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Downloads\\chromedriver_win32 (3)\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Downloads\\chromedriver_win32 (4)\\chromedriver.exe");
 			 driver=new ChromeDriver();
 			 driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 			return driver;
